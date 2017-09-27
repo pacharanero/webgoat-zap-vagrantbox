@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  webgoat:
+    image: webgoat/webgoat-7.1
+    ports:
+      - "80:8080"
